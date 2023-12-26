@@ -1,0 +1,47 @@
+# Arquivos de compilação e saída de build
+/build
+/dist
+/node_modules
+/.npm
+
+# Arquivos de log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos temporários
+*.swp
+.DS_Store
+
+# Arquivos de configuração do editor
+.vscode/
+.idea/
+
+# Arquivos de ambiente
+.env
+.env.local
+
+# Arquivos gerados pelo Docker
+docker-compose.override.yml
+docker-compose.yml
+docker-compose.prod.yml
+
+# Arquivos de dependência do Docker
+.dockerignore
+
+# Arquivos de cache do Prisma
+/prisma/.prisma
+/prisma/migration
+/prisma/schema.prisma
+
+# Arquivos de cache do Jest
+/.jest
+/coverage
+/.nyc_output
+
+# Arquivos de configuração local do NestJS
+ormconfig.json
+
+# Arquivos de configuração local do PostgreSQL
+/postgresql_data
