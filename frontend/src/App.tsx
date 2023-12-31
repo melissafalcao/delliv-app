@@ -1,24 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { AppDispatch } from './app/store';
+import LoginComponent from './components/login/Login';
+import RegisterComponent from './components/register/Register';
+import OrderComponent from './components/order/Order';
+import Root from './components/root/Root';
+import { createUserAsync } from './api/userService';
+import Header from './components/header/Header';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Header />
+        <div className="content-container">
+          <Routes>
+            <Route path="/" element={<Root />} />
+            <Route path="/login" element={<LoginComponent />} />
+            <Route path="/register" element={<RegisterComponent />} />
+            <Route path="/order" element={<OrderComponent />} />
+          </Routes>
+        </div>
+      </Router>
     </div>
   );
 }

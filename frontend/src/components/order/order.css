@@ -1,0 +1,40 @@
+/* Estilo para o componente de pedidos */
+.order-container {
+    padding: 20px;
+    max-width: 600px; /* Largura máxima do contêiner de pedidos */
+    margin: auto; /* Centraliza o contêiner */
+  }
+  
+  .order-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-item {
+    background-color: #f8f9fa; /* Cor de fundo leve para cada item */
+    border: 1px solid #dee2e6; /* Borda suave */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px;
+    margin-bottom: 10px; /* Espaço entre os itens */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espaçamento entre elementos */
+  }
+  
+  .order-item select {
+    margin-right: 10px; /* Espaço à direita do seletor */
+  }
+  
+  .order-item button {
+    background-color: #347556; /* Cor de fundo do botão */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .order-item button:hover {
+    background-color: #2d6349; /* Cor de fundo do botão ao passar o mouse */
+  }
+  

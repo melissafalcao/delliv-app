@@ -1,0 +1,57 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura total da janela */
+  }
+  
+  .login-form {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f0f0f0; /* Cor de fundo do quadrado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra leve para dar destaque */
+    max-width: 300px; /* Largura máxima do formulário */
+    width: 100%; /* Adapta-se à largura do dispositivo */
+    display: flex;
+    flex-direction: column; /* Coloca os campos em coluna */
+    gap: 10px; /* Espaço entre os campos */
+  }
+  
+  .login-form input {
+    padding: 10px;
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 4px; /* Bordas arredondadas para os campos de input */
+    font-size: 16px; /* Tamanho da fonte */
+    background-color: #ffffff;
+  }
+  
+  .login-form button {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #347556; /* Cor de fundo do botão */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-form button:hover {
+    background-color: #2d6349; /* Cor de fundo do botão ao passar o mouse */
+  }
+  
+  /* Estilos para mensagens de status */
+  .status-message {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .register-button {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #347556; /* Cor de fundo do botão para registro */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }

@@ -1,0 +1,36 @@
+.header {
+    background-color: #347556;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: start; /* Ajustado para start */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header nav ul li {
+    padding: 10px;
+  }
+  
+  .header nav ul li:first-child {
+    margin-left: auto; /* Empurra todos os itens para a direita */
+  }
+  
+  .header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  

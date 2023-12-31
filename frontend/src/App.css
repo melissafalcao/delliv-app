@@ -1,5 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-bottom: 20px;
+  color: #347556;
+  text-transform: uppercase;
+}
+button {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+input {
+  padding: 10px;
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 4px; /* Bordas arredondadas para os campos de input */
+    font-size: 16px; /* Tamanho da fonte */
+    background-color: #ffffff;
+}
+
+select {
+  padding: 10px;
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 4px; /* Bordas arredondadas para os campos de input */
+    font-size: 16px; /* Tamanho da fonte */
+    background-color: #ffffff;
+}
+
 .App {
   text-align: center;
+  background-color: #dcdfdd;
 }
 
 .App-logo {
@@ -26,6 +63,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.content-container {
+  margin-top: 60px;
 }
 
 @keyframes App-logo-spin {
